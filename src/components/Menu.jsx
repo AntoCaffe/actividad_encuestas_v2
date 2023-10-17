@@ -5,10 +5,10 @@ const Menu = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">Inicio</Link>
+          <Link className="btInicio" to="/">Inicio</Link>
         </li>
         <li>
-          <Link to="/encuesta/crear">Crear Encuesta</Link>
+          <Link className="btCrearEncuestas" to="/encuesta/crear">Crear Encuesta</Link>
         </li>
       </ul>
     </nav>

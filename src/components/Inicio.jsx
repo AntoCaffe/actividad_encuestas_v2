@@ -11,7 +11,7 @@ const Inicio = ({ listaEncuestas }) => {
           <div className="encuesta-item">
             <h2>{encuesta.titulo}</h2>
             <p>{encuesta.descripcion}</p>
-            <Link to={`/encuesta/${encuesta.id}`}>Ver encuesta</Link>
+            <Link className="verE" to={`/encuesta/${encuesta.id}`}>Ver encuesta</Link>
             <br />
           </div>
         </div>
